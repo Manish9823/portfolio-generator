@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Portfolio Generator</title>
+<script>
+window.onload=function(){
+let name,age,city,email,mobno;
+name=prompt("Enter your Name:-")
+age=prompt("Enter your Age:-")
+city=prompt("Enter your City:-")
+email=prompt("Enter your E-mail id:-")
+mobno=prompt("Enter your Mobile no. :-")
+
+let data=document.getElementById("data");
+data.innerHTML="Name= " + name + "<br>Age= " + age + "<br>City= " + city + "<br>Email= " + email + "<br>Mob no.= " + mobno ;
+
+}
+</script>
+</head>
+<body>
+<h1>Portfolio</h1>
+<hr>
+<h2>
+<div id="data">
+</div>
+<h2>
+</body>
+</html>
